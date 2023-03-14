@@ -1,0 +1,59 @@
+body{
+font: 14px;
+
+
+}
+
+#container{
+
+margin: 0 auto;
+background-color: #fff;
+border:1px solid #E7E7E7;
+}
+
+#content{
+  /* background-color: #ffffff;  container에서 흰 배경 줬는데 굳이 왜?  */
+/* padding-top: ;
+padding-left: ; */
+
+}
+
+#slider img :hover{
+border: 1px solid black;
+opacity: 1.0; 
+
+}
+
+#footer{
+    background-color: brown;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    /* clear: both; */
+}
+
+header, section, footer, aside, article, figure{
+    display: block;
+}
+
+@media screen and (max-width : 559px){
+    #container{
+        width : 320px;
+    }
+
+    #mainHeader {
+        height: 100px;
+        background-color: chocolate;
+    }
+    #mainHeader h1{
+        /* position: absolute; */
+        margin-left: 15px;
+    }
+    .header1 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 3em;
+        color: yellow;
+        /* text-shadow: 0px 1px 1px black; */
+    }
+}
+
